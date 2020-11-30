@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
     private ArrayList<Face_> face_ = new ArrayList<Face_>();
     private FaceAdapter faceAdapter;
     private Face_ face;
-    private Boolean isPressed;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -45,6 +45,7 @@ public class FaceAdapter extends RecyclerView.Adapter<FaceAdapter.ViewHolder>{
         holder.profName.setText(face.getProfName());
         holder.hour.setText(face.getHours());
         holder.profTxt.setText(face.getProfTxt());
+        holder.liked.setText(String.valueOf(face.getLiked()));
         holder.comments.setText(String.valueOf(face.getComments()));
 
         glide.load(face.getProfPic()).into(holder.profPic);
