@@ -27,7 +27,7 @@ public class Face_ {
                 ", profTxt='" + profTxt + '\'' +
                 ", postPic=" + postPic +
                 ", liked=" + liked +
-                ", coments=" + comments +
+                ", comments=" + comments +
                 ", profPic=" + profPic +
                 '}';
     }
