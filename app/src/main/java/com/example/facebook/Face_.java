@@ -6,16 +6,16 @@ public class Face_ {
     private String profTxt;
     private int postPic;
     private int liked;
-    private int comments;
+    private int coments;
     private int profPic;
 
-    public Face_(String profName, String hours, String profTxt, int postPic, int liked, int comments, int profPic) {
+    public Face_(String profName, String hours, String profTxt, int postPic, int liked, int coments, int profPic) {
         this.profName = profName;
         this.hours = hours;
         this.profTxt = profTxt;
         this.postPic = postPic;
         this.liked = liked;
-        this.comments = comments;
+        this.coments = coments;
         this.profPic = profPic;
     }
 
@@ -27,7 +27,7 @@ public class Face_ {
                 ", profTxt='" + profTxt + '\'' +
                 ", postPic=" + postPic +
                 ", liked=" + liked +
-                ", comments=" + comments +
+                ", coments=" + coments +
                 ", profPic=" + profPic +
                 '}';
     }
@@ -72,12 +72,12 @@ public class Face_ {
         this.liked = liked;
     }
 
-    public int getComments() {
-        return comments;
+    public int getComents() {
+        return coments;
     }
 
-    public void setComments(int comments) {
-        this.comments = comments;
+    public void setComents(int coments) {
+        this.coments = coments;
     }
 
     public int getProfPic() {
