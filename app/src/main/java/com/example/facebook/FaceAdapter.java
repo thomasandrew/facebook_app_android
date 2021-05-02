@@ -46,7 +46,7 @@ public class FaceAdapter extends RecyclerView.Adapter<FaceAdapter.ViewHolder>{
         holder.hour.setText(face.getHours());
         holder.profTxt.setText(face.getProfTxt());
         holder.liked.setText(String.valueOf(face.getLiked()));
-        holder.comments.setText(String.valueOf(face.getComments()));
+        holder.coments.setText(String.valueOf(face.getComents()));
 
         glide.load(face.getProfPic()).into(holder.profPic);
 
@@ -79,7 +79,7 @@ public class FaceAdapter extends RecyclerView.Adapter<FaceAdapter.ViewHolder>{
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        private TextView profName, hour, profTxt, liked, comments;
+        private TextView profName, hour, profTxt, liked, coments;
         private ImageView postPic, profPic;
         private ImageButton like_change;
 
@@ -89,7 +89,7 @@ public class FaceAdapter extends RecyclerView.Adapter<FaceAdapter.ViewHolder>{
             hour = itemView.findViewById(R.id.hour);
             profTxt = itemView.findViewById(R.id.profTxt);
             liked = itemView.findViewById(R.id.liked);
-            comments = itemView.findViewById(R.id.comments);
+            coments = itemView.findViewById(R.id.coments);
             postPic = itemView.findViewById(R.id.postPic);
             profPic = itemView.findViewById(R.id.profPic);
             like_change = itemView.findViewById(R.id.like_change);
